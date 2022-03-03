@@ -1,0 +1,60 @@
+.buttonCol{
+  width:30px;
+}
+
+.delRow,.newRow{
+  height: 100%;
+  width: 100%;
+  vertical-align:middle;
+}
+.delRow:hover,.newRow:hover{
+  opacity: 0.8;
+}
+
+.delRow:active,.newRow:active{
+  opacity: 1;
+}
+.editUnit,.delUnit{
+  width: 20px;
+  vertical-align:middle;
+  opacity: 0.8;
+  float: right;
+  padding-right: 2px;
+}
+.nameSpan:hover,.editUnit:hover,.delUnit:hover,.newUnitButton:hover{
+  opacity: 1;
+  font-weight: bold;
+  cursor: default;
+}
+.nameSpan,.editUnit:active,.delUnit:active,.newUnitButton:active{
+  opacity: 0.8;
+}
+.unitButton{
+  width: 65%;
+}
+.boligenhetSpan{
+  opacity: 1;
+  width: 97%;
+  align-self:center;
+  display: inline-block;
+  border: 1px solid #e7e7e7;
+  padding-left: 2px;
+  font-weight: normal;
+}
+.boligenhetSpan_active{
+  background-color: rgba(218,223,225,0.8);
+  font-weight: bold;
+}
+.nameSpan{
+  vertical-align:middle;
+  width: 100%;
+  display: inline-block;
+  width: calc(100% - 44px);
+}
+.newUnitButton{
+  width: 30px;
+  float: right;
+  opacity: 0.8;
+  border: 1px solid #e7e7e7;
+  margin-bottom: 2px;
+}

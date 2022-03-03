@@ -1,0 +1,42 @@
+.fordelerSkap,.fordelerStokk,.termostat{
+  border-radius: 0;
+  border-width: 1px;
+  border: 1px solid #e7e7e7;
+  padding-left: 10px;
+  line-height: 1.25;
+  /*background-color: rgba(205,209, 228, 0.5); */
+}
+.termostat{
+  border-bottom: none;
+}
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #393a3b;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+label{
+  padding: 5px;
+}

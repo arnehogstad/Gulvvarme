@@ -1,0 +1,186 @@
+#boenhetOverskiftSpan{
+  padding-left: 5px;
+  width: 70%;
+  font-weight:bold;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#yellowBar{
+  height: 24px;
+  width: 100%;
+  background-color: #fbab18;
+}
+#blackBar{
+  height: 75px;
+  width: 100%;
+  background-color: black;
+}
+#menuBar{
+  height: 40px;
+  width: 100%;
+  background-color: black;
+}
+.menuStuff{
+  color: white;
+  font-weight: bolder;
+  font-size: 12px;
+  margin-left: 25px;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  height: 40px;
+}
+.firstMenu{
+  margin-left: 5%;
+}
+
+html,body{
+  height: 100%;
+  font-family: Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
+  overflow-wrap: break-word;
+  background-color: #f7f7f7;
+}
+#infoDiv{
+    line-height: 1.5;
+}
+body{
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-areas: "main" "footer";
+  grid-template-rows: 1fr 80px;
+  color: #616161 !important;
+  font-family: Helvetica !important;
+}
+
+.topSearchBox{
+  margin-left: 50px;
+  padding-left: 15px;
+  font-size: 15px;
+  width: 400px;
+  height: 40px;
+}
+
+main{
+  margin-left: 5%;
+  margin-right: 5%;
+  grid-area: main;
+}
+
+footer{
+  grid-area: footer;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-left: 5%;
+  font-size: 12px;
+}
+
+.handlingsKnapp{
+  height: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 2px;
+  padding: 0;
+  margin-bottom: 15px;
+  width: calc((98% - 50px) / 6);
+  align-self: center;
+  border: 1px solid #e7e7e7;
+}
+.handlingsKnappTidlig{
+  margin-right: 10px;
+}
+.handlingsKnapp:hover{
+  opacity: 1;
+  background-color: black;
+  color: white;
+}
+#calculateButton{
+
+}
+#lagreInndata,#lagreHandleliste,#leggIHandlekurv  {
+
+  vertical-align: top;
+}
+.endOfLine{
+  background-color: #fbab18;
+  color:#000;
+  border-style: none;
+}
+
+.endOfLine:hover{
+  background-color: #dc9004;
+  color:#000;
+}
+
+#resultDiv{
+  display: block;
+  padding-top: 10px;
+  min-height: 200px;
+  overflow: auto;
+  margin-bottom: 40px;
+}
+.resultSpan{
+  padding-left: 10px;
+}
+#footer{
+  height: 200px;
+}
+.first,.second{
+  margin-right: 5px;
+}
+.third{
+  font-weight: bolder;
+}
+.navigeringsPos{
+  margin-left: 5%;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.skjulVisSpan{
+  text-decoration: underline;
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 1;
+}
+
+.skjulVisSpan:hover{
+  cursor: default;
+}
+
+#resultatListe{
+  margin-right: 5%;
+  width: 100%;
+}
+.boenheterOppsummering{
+  background-color: white;
+  height: 90px;
+  width: calc(100% - 10px);
+  padding-top: 10px;
+  padding-left: 10px;
+  line-height: 1.3;
+  margin-top: 10px;
+}
+.artikkellisteOverskrifter{
+  height: auto;
+  background-color: #f0eded;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.produktSpan,.artikkelnrSpan,.antallSpan,.enhetsSpan{
+  width: 23%;
+  display: inline-flex;
+  padding-left: 10px;
+}
+.artikkellisteLinje{
+  background-color: white;
+  line-height: 1.1;
+}

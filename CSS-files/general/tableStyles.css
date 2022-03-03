@@ -1,0 +1,81 @@
+tr, th, td {
+  font-family: Arial;
+  text-align: center;
+  height: 20px;
+
+}
+th{
+  font-weight: bold;
+}
+td{
+  border: 1px solid #e7e7e7;
+}
+table{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.floorCol{
+  width: 200px;
+}
+.roomCol{
+  width: 200px;
+}
+.areaCol{
+  width: 100px;
+}
+.pipeCol{
+  width: 700px;
+}
+.ccCol{
+  width: 100px;
+}
+.circuitCol{
+  width: 100px;
+}
+
+#contentDiv{
+  height: 500px;
+  background-color: white;
+}
+#contentDiv > div{
+  box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  overflow-y: auto;
+  height: 500px;
+  border: 1px solid #e7e7e7;
+  letter-spacing: 1px;
+}
+
+#boligEnhetDiv{
+  float: left;
+  width: 10%;
+}
+#tableDiv{
+  float: left;
+  width: 70%;
+}
+#diverseUtstyrDiv{
+  float: right;
+  width: 20%;
+
+}
+
+.inputSelect, .inputBoks{
+  border-style:none;
+  width: 95%;
+
+  background-color: transparent;
+}
+
+.ghostCell{
+  background-color: white;
+  border: none;
+}
+.enhetsOverskrift{
+  font-weight:  bold;
+  padding-left: 12px;
+}
+
+#tableDiv tr:nth-child(even){background-color: #f2f2f2;}
+
+#tableDiv tr:hover {background-color: #ddd;}
